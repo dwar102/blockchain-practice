@@ -1,5 +1,5 @@
 const Block = require("./block");
-const { GENESIS_DATA } = require("./config");
+const { GENESIS_DATA } = require("./constants");
 const cryptoHash = require("./crypto-hash.js");
 
 describe('Block', () => {
